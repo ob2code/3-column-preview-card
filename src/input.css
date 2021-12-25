@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  p {
+    @apply text-trans-white mb-4;
+  }
+  .heading {
+    @apply text-very-light-gray text-4xl uppercase font-medium font-bigshoulders my-8;
+  }
+  .btn-primary {
+    @apply py-2 px-4 bg-very-light-gray font-semibold rounded-3xl hover:opacity-0 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+}
