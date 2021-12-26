@@ -4,12 +4,21 @@
 
 @layer components {
   p {
-    @apply text-trans-white mb-4;
+    @apply text-trans-white mb-4 md:min-h-[200px] lg:min-w-[210px];
   }
   .heading {
     @apply text-very-light-gray text-4xl uppercase font-medium font-bigshoulders my-8;
   }
-  .btn-primary {
-    @apply py-2 px-4 bg-very-light-gray font-semibold rounded-3xl hover:opacity-0 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  .btn {
+    @apply py-2 px-6 bg-very-light-gray font-semibold rounded-3xl hover:text-very-light-gray/75 hover:ring-2 hover:ring-white/75;
+  }
+  .btn--sedan {
+    @apply text-bright-orange hover:bg-bright-orange;
+  }
+  .btn--suvs {
+    @apply text-dark-cyan hover:bg-dark-cyan;
+  }
+  .btn--luxury {
+    @apply text-very-dark-cyan hover:bg-very-dark-cyan;
   }
 }
