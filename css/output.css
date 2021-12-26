@@ -445,12 +445,6 @@ p {
   }
 }
 
-@media (min-width: 1024px) {
-  p {
-    min-width: 210px;
-  }
-}
-
 .heading {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -526,6 +520,18 @@ p {
   max-width: 768px;
 }
 
+.max-w-\[810px\] {
+  max-width: 810px;
+}
+
+.max-w-\[840px\] {
+  max-width: 840px;
+}
+
+.max-w-\[870px\] {
+  max-width: 870px;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -567,6 +573,14 @@ p {
 
 .p-12 {
   padding: 3rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-11 {
+  padding: 2.75rem;
 }
 
 .px-4 {

@@ -4,7 +4,7 @@
 
 @layer components {
   p {
-    @apply text-trans-white mb-4 md:min-h-[200px] lg:min-w-[210px];
+    @apply text-trans-white mb-4 md:min-h-[200px];
   }
   .heading {
     @apply text-very-light-gray text-4xl uppercase font-medium font-bigshoulders my-8;
